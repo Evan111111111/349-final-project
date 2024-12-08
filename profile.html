@@ -6,25 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body class = "profile">
     <header>
-        <h1>Projects</h1>
+        <h1>Profile</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about.html">Showcase</a></li>
             </ul>
         </nav>
+        <a href="profile.html" class="profile-icon">
+            <img src="img/icon.jpg" alt="Profile Icon">
+        </a>
     </header>
     <main>
-        <section class="gallery">
-            <h2>Graphic Design Projects</h2>
-            <div class="image-grid">
-                <img src="img/image1.jpg" alt="Design Project 1">
-                <img src="img/image2.jpg" alt="Design Project 2">
-            </div>
+        <aside class = "sample">
+            <h2>Preview</h2>
+            <img src = "img/icon.jpg">
+            <h3>John Smith</h3>
+            <p>email: Johnsmith@aol.com</p>
+            <p>Bio: read this paragraph, use that mind of yours to think what you could’ve done throughout your whole irreversible time. You could’ve finished your homework, play with your cat, eat your seal, or you could’ve discovered who made the fire hydrant, if you did not get the reference, you could’ve went and learned something and post it on reddit in the subreddit “Today I learned”, but you still have the urge to read this insanely long paragraph, pondering how I typed this without rest. Then you read this text and see that text over there. Why am I still reading this? How does this paragraph know what I’m thinking? What did I eat last April the 17th? Then you come to the conclusion that you know that this useless and insanely long paragraph would tell you. And you are right, but I did not write this and you have wasted now around 2 minutes. A full 2 minutes. Now, use that intelligence that you have, assuming that your IQ is above 60 and you are literate. Now that you have made it this far, you wonder if you learned anything, but no, you did not get the reference about the fire hydrant and refused to look it up, then you make the decision of reading this long essay with your irreversible time. Since you have made it this far on your long journey, you try have the urge to stop reading. But I bet you cannot finish this paragraph for which you are lazy and want to.</p>
+
+        </aside>
+        <section class = "profile-page">
+            <h2>
+                Edit profile
+            </h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="placeholder">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="placeholder">
+
+                <label for="bio">Bio:</label>
+                <input id="bio" name="name" placeholder="placeholder">
+
+                <button type="submit">Save</button>
+
+            </form>
         </section>
+        
     </main>
 
 </body>
